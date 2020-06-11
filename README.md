@@ -13,3 +13,11 @@ graph LR;
     click A callback "Tooltip for a callback"
     click B "http://www.github.com" "This is a tooltip for a link"
 ```
+
+```mermaid
+sequenceDiagram
+    participant John
+    participant Alice
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+```
